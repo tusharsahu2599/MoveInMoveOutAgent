@@ -1,0 +1,112 @@
+[
+  {
+    "id": "TEMP-1789309651087",
+    "type": "MOVE_IN",
+    "status": "NEEDS_INFORMATION",
+    "residentId": "resident-001",
+    "communityId": "community-001",
+    "unitId": "A-1204",
+    "details": {
+      "moveDate": "2026-09-14",
+      "slot": "10:00-12:00",
+      "vehicleNumber": "CG04AB1234",
+      "movingCompany": "ABC Movers"
+    },
+    "createdAt": "2026-09-13T14:27:31.087Z",
+    "updatedAt": "2026-09-13T15:01:15.439Z",
+    "adminNote": "give details"
+  },
+  {
+    "id": "TEMP-1789309876970",
+    "type": "MOVE_IN",
+    "status": "NEEDS_INFORMATION",
+    "residentId": "resident-001",
+    "communityId": "community-001",
+    "unitId": "A-1204",
+    "details": {
+      "slot": "10:00-12:00",
+      "moveDate": "2026-09-17",
+      "vehicleNumber": "CG12AB1234",
+      "movingCompany": "ABC Movers"
+    },
+    "createdAt": "2026-09-13T14:29:38.157Z",
+    "updatedAt": "2026-09-13T14:45:57.654Z",
+    "adminNote": "give keys"
+  },
+  {
+    "id": "TEMP-1789310714211",
+    "type": "MOVE_OUT",
+    "status": "APPROVED",
+    "residentId": "resident-001",
+    "communityId": "community-001",
+    "unitId": "A-1204",
+    "details": {
+      "moveDate": "2026-09-21",
+      "slot": "11:00-13:00",
+      "vehicleNumber": "CG04AB1234",
+      "movingCompany": "ABC Movers",
+      "inspectionScheduled": true,
+      "duesCleared": true,
+      "accessCardsReturned": true
+    },
+    "createdAt": "2026-09-13T14:43:52.397Z",
+    "updatedAt": "2026-09-13T14:45:45.253Z"
+  },
+  {
+    "id": "TEMP-1789286349081",
+    "type": "MOVE_IN",
+    "status": "NEEDS_INFORMATION",
+    "residentId": "resident-001",
+    "communityId": "community-001",
+    "unitId": "A-1204",
+    "details": {
+      "moveDate": "2026-09-14",
+      "slot": "10:00-12:00",
+      "vehicleNumber": "CG04AB1234",
+      "movingCompany": "ABC Movers"
+    },
+    "createdAt": "2026-09-13T07:59:09.081Z",
+    "updatedAt": "2026-09-13T15:13:02.487Z",
+    "adminNote": "need details"
+  },
+  {
+    "id": "TEMP-1789312890528",
+    "type": "MOVE_OUT",
+    "status": "NEEDS_INFORMATION",
+    "residentId": "resident-001",
+    "communityId": "community-001",
+    "unitId": "A-1204",
+    "details": {
+      "moveDate": "2026-09-14",
+      "slot": "10:00-12:00",
+      "vehicleNumber": "CG04AB1234",
+      "movingCompany": "ABC Movers",
+      "inspectionScheduled": true,
+      "duesCleared": true,
+      "accessCardsReturned": true
+    },
+    "createdAt": "2026-09-13T15:21:16.003Z",
+    "updatedAt": "2026-09-13T15:21:59.474Z",
+    "adminNote": "need docs"
+  },
+  {
+    "id": "TEMP-1789313549798",
+    "type": "MOVE_OUT",
+    "status": "APPROVED",
+    "residentId": "resident-001",
+    "communityId": "community-001",
+    "unitId": "A-1204",
+    "details": {
+      "slot": "10:00-12:00",
+      "vehicleNumber": "CG04XY5678",
+      "movingCompany": "ABC Movers",
+      "moveDate": "2026-09-14",
+      "inspectionScheduled": true,
+      "duesCleared": true,
+      "accessCardsReturned": true
+    },
+    "createdAt": "2026-09-13T15:31:35.007Z",
+    "updatedAt": "2026-09-13T15:35:18.911Z",
+    "adminNote": "need docs"
+  }
+]
