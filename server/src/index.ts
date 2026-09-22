@@ -11,7 +11,7 @@ const PORT = Number(process.env.PORT) || 3001;
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL,
+    origin: process.env.FRONTEND_URL || "https://move-in-move-out-agent-78qn9d9zt-tusharsahu2599s-projects.vercel.app/",
   }),
 );
 
