@@ -13,14 +13,14 @@ export interface MoveRequest {
   id: string;
   type: "MOVE_IN" | "MOVE_OUT";
   status:
-  | "DRAFT"
-  | "INCOMPLETE"
-  | "READY_FOR_SUBMISSION"
-  | "SUBMITTED"
-  | "UNDER_REVIEW"
-  | "NEEDS_INFORMATION"
-  | "APPROVED"
-  | "REJECTED";
+    | "DRAFT"
+    | "INCOMPLETE"
+    | "READY_FOR_SUBMISSION"
+    | "SUBMITTED"
+    | "UNDER_REVIEW"
+    | "NEEDS_INFORMATION"
+    | "APPROVED"
+    | "REJECTED";
   residentId: string;
   communityId: string;
   unitId: string;
@@ -45,7 +45,8 @@ export interface AdminRequest {
 }
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:3001/api/admin";
+  import.meta.env.VITE_API_BASE_URL + "/api/admin" ||
+  "http://localhost:3001/api/admin";
 async function request<T>(endpoint: string, options?: RequestInit): Promise<T> {
   const response = await fetch(`${API_BASE_URL}${endpoint}`, {
     headers: {

@@ -29,7 +29,8 @@ export interface ResidentRequest {
 }
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:3001/api/resident";
+  import.meta.env.VITE_API_BASE_URL + "/api/resident" ||
+  "http://localhost:3001/api/resident";
 
 async function request<T>(endpoint: string): Promise<T> {
   const response = await fetch(`${API_BASE_URL}${endpoint}`);
