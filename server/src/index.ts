@@ -7,11 +7,11 @@ import residentRoutes from "./routes/resident.routes.js";
 
 const app = express();
 
-const PORT = 3001;
+const PORT = Number(process.env.PORT) || 3001;
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: process.env.FRONTEND_URL,
   }),
 );
 
@@ -29,6 +29,6 @@ app.use("/api/agent", agentRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/resident", residentRoutes);
 
-app.listen(PORT, () => {
-  console.log(`🚀 Server running at http://localhost:${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server running on port ${PORT}`);
 });

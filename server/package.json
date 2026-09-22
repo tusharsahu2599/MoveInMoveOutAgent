@@ -6,7 +6,9 @@
   "scripts": {
     "test:rules": "tsx src/rules/move.rules.test.ts",
     "test:agent": "tsx src/agents/move-agent.test.ts",
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
